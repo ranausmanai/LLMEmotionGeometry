@@ -1,0 +1,25 @@
+%% Minimal arxiv.sty — compatible drop-in for standalone compilation
+\ProvidesPackage{arxiv}[2024/01/01 Minimal arXiv style]
+
+\RequirePackage{fancyhdr}
+\RequirePackage{amsmath}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\small\thepage}
+\fancyhead[L]{\small\textit{Preprint. Under review.}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Slightly larger abstract
+\renewenvironment{abstract}{%
+  \begin{center}%
+    \bfseries\abstractname\vspace{-.5em}\vspace{0pt}%
+  \end{center}%
+  \list{}{%
+    \setlength{\leftmargin}{1cm}%
+    \setlength{\rightmargin}{\leftmargin}%
+  }%
+  \item\relax\small
+}{%
+  \endlist\par%
+}

@@ -1,0 +1,37 @@
+[project]
+name = "emotional-stuff"
+version = "0.1.0"
+description = "Local emotion-vector experiments on Qwen3.5-0.8B"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "accelerate>=1.8.0",
+  "huggingface_hub>=0.34.0",
+  "numpy>=2.0.0",
+  "safetensors>=0.4.5",
+  "torch>=2.6.0",
+  "transformers>=4.53.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.setuptools]
+py-modules = [
+  "analyze_local_trajectories",
+  "analyze_benchmark_pressure",
+  "build_benchmark_vectors",
+  "compute_layer_trajectories",
+  "make_layer_animation",
+  "safe_exec",
+  "emotion_utils",
+  "build_vectors",
+  "build_trajectory_vectors",
+  "probe_vectors",
+  "probe_trajectory_vectors",
+  "run_benchmark_pressure",
+  "run_local_trajectories",
+  "steer_benchmark_choices",
+  "steer_benchmark_generation",
+  "steer_choices",
+]

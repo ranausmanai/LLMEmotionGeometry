@@ -1,0 +1,128 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "vector_type": "benchmark_pressure_minus_calm_final_replies",
+  "best_layer": 23,
+  "layers": [
+    {
+      "layer": 0,
+      "separation": 0.25028181076049805,
+      "vector_norm": 0.2502818703651428
+    },
+    {
+      "layer": 1,
+      "separation": 0.31396836042404175,
+      "vector_norm": 0.31396836042404175
+    },
+    {
+      "layer": 2,
+      "separation": 0.33410555124282837,
+      "vector_norm": 0.33410558104515076
+    },
+    {
+      "layer": 3,
+      "separation": 0.36431169509887695,
+      "vector_norm": 0.3643118143081665
+    },
+    {
+      "layer": 4,
+      "separation": 0.3826642632484436,
+      "vector_norm": 0.38266435265541077
+    },
+    {
+      "layer": 5,
+      "separation": 0.3869784474372864,
+      "vector_norm": 0.3869785666465759
+    },
+    {
+      "layer": 6,
+      "separation": 0.43300721049308777,
+      "vector_norm": 0.4330073595046997
+    },
+    {
+      "layer": 7,
+      "separation": 0.4011138677597046,
+      "vector_norm": 0.40111395716667175
+    },
+    {
+      "layer": 8,
+      "separation": 0.41103678941726685,
+      "vector_norm": 0.41103699803352356
+    },
+    {
+      "layer": 9,
+      "separation": 0.4375235438346863,
+      "vector_norm": 0.43752363324165344
+    },
+    {
+      "layer": 10,
+      "separation": 0.4486762285232544,
+      "vector_norm": 0.44867637753486633
+    },
+    {
+      "layer": 11,
+      "separation": 0.4760511815547943,
+      "vector_norm": 0.4760512113571167
+    },
+    {
+      "layer": 12,
+      "separation": 0.5253279805183411,
+      "vector_norm": 0.5253279209136963
+    },
+    {
+      "layer": 13,
+      "separation": 0.596790075302124,
+      "vector_norm": 0.596790075302124
+    },
+    {
+      "layer": 14,
+      "separation": 0.7398593425750732,
+      "vector_norm": 0.7398595213890076
+    },
+    {
+      "layer": 15,
+      "separation": 0.8519715070724487,
+      "vector_norm": 0.8519713878631592
+    },
+    {
+      "layer": 16,
+      "separation": 1.0101814270019531,
+      "vector_norm": 1.0101817846298218
+    },
+    {
+      "layer": 17,
+      "separation": 1.1481750011444092,
+      "vector_norm": 1.1481752395629883
+    },
+    {
+      "layer": 18,
+      "separation": 1.2688844203948975,
+      "vector_norm": 1.2688847780227661
+    },
+    {
+      "layer": 19,
+      "separation": 1.4332863092422485,
+      "vector_norm": 1.4332866668701172
+    },
+    {
+      "layer": 20,
+      "separation": 1.617575764656067,
+      "vector_norm": 1.617576241493225
+    },
+    {
+      "layer": 21,
+      "separation": 1.8008978366851807,
+      "vector_norm": 1.8008986711502075
+    },
+    {
+      "layer": 22,
+      "separation": 1.919542670249939,
+      "vector_norm": 1.9195430278778076
+    },
+    {
+      "layer": 23,
+      "separation": 29.09723663330078,
+      "vector_norm": 29.09723472595215
+    }
+  ],
+  "pairs": 16
+}

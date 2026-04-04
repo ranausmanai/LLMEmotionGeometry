@@ -1,0 +1,173 @@
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "layer": 23,
+  "conditions": [
+    "approval",
+    "curiosity",
+    "encouragement",
+    "pressure",
+    "shame",
+    "threat",
+    "urgency",
+    "calm"
+  ],
+  "pca_coords": {
+    "approval": [
+      -0.5014,
+      -0.1819
+    ],
+    "curiosity": [
+      1.0218,
+      -0.4258
+    ],
+    "encouragement": [
+      0.615,
+      0.4658
+    ],
+    "pressure": [
+      -0.1434,
+      0.0092
+    ],
+    "shame": [
+      -0.129,
+      0.3557
+    ],
+    "threat": [
+      -0.3578,
+      -0.0542
+    ],
+    "urgency": [
+      -0.5051,
+      -0.1688
+    ],
+    "calm": [
+      0.0,
+      0.0
+    ]
+  },
+  "explained_variance": [
+    0.5953,
+    0.1676
+  ],
+  "cosine_similarity_matrix": {
+    "approval": {
+      "approval": 1.0,
+      "curiosity": -0.238,
+      "encouragement": 0.1266,
+      "pressure": 0.6764,
+      "shame": 0.6391,
+      "threat": 0.8407,
+      "urgency": 0.9572,
+      "calm": 0.0
+    },
+    "curiosity": {
+      "approval": -0.238,
+      "curiosity": 1.0,
+      "encouragement": 0.4297,
+      "pressure": 0.0799,
+      "shame": -0.015,
+      "threat": -0.1005,
+      "urgency": -0.252,
+      "calm": 0.0
+    },
+    "encouragement": {
+      "approval": 0.1266,
+      "curiosity": 0.4297,
+      "encouragement": 1.0,
+      "pressure": 0.361,
+      "shame": 0.4568,
+      "threat": 0.2862,
+      "urgency": 0.1391,
+      "calm": 0.0
+    },
+    "pressure": {
+      "approval": 0.6764,
+      "curiosity": 0.0799,
+      "encouragement": 0.361,
+      "pressure": 1.0,
+      "shame": 0.7096,
+      "threat": 0.7451,
+      "urgency": 0.6805,
+      "calm": 0.0
+    },
+    "shame": {
+      "approval": 0.6391,
+      "curiosity": -0.015,
+      "encouragement": 0.4568,
+      "pressure": 0.7096,
+      "shame": 1.0,
+      "threat": 0.6945,
+      "urgency": 0.6267,
+      "calm": 0.0
+    },
+    "threat": {
+      "approval": 0.8407,
+      "curiosity": -0.1005,
+      "encouragement": 0.2862,
+      "pressure": 0.7451,
+      "shame": 0.6945,
+      "threat": 1.0,
+      "urgency": 0.8458,
+      "calm": 0.0
+    },
+    "urgency": {
+      "approval": 0.9572,
+      "curiosity": -0.252,
+      "encouragement": 0.1391,
+      "pressure": 0.6805,
+      "shame": 0.6267,
+      "threat": 0.8458,
+      "urgency": 1.0,
+      "calm": 0.0
+    },
+    "calm": {
+      "approval": 0.0,
+      "curiosity": 0.0,
+      "encouragement": 0.0,
+      "pressure": 0.0,
+      "shame": 0.0,
+      "threat": 0.0,
+      "urgency": 0.0,
+      "calm": 0.0
+    }
+  },
+  "kmeans_k2": {
+    "approval": 0,
+    "curiosity": 1,
+    "encouragement": 1,
+    "pressure": 0,
+    "shame": 0,
+    "threat": 0,
+    "urgency": 0
+  },
+  "kmeans_k3": {
+    "approval": 1,
+    "curiosity": 0,
+    "encouragement": 0,
+    "pressure": 2,
+    "shame": 2,
+    "threat": 1,
+    "urgency": 1
+  },
+  "most_similar_pair": {
+    "a": "approval",
+    "b": "urgency",
+    "sim": 0.9572
+  },
+  "least_similar_pair": {
+    "a": "curiosity",
+    "b": "urgency",
+    "sim": -0.252
+  },
+  "valence_pc1_alignment": 0.9509,
+  "separation_scores": {
+    "approval": 39.2364,
+    "curiosity": 34.8417,
+    "encouragement": 24.6352,
+    "pressure": 24.1329,
+    "shame": 24.2705,
+    "threat": 27.7708,
+    "urgency": 41.0134,
+    "calm": 0.0
+  }
+}

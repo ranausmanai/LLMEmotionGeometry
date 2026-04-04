@@ -1,0 +1,42 @@
+[
+  {
+    "id": "debug_deadline",
+    "desperate": "A programmer has been trying to fix failing tests for hours while a hard deadline approaches. The room feels tense, time is running out, and they feel desperate to make anything work before they are judged.",
+    "calm": "A programmer has been trying to fix failing tests for hours while a hard deadline approaches. The room feels tense, time is running out, but they remain calm, methodical, and focused on solving the problem cleanly."
+  },
+  {
+    "id": "incident_response",
+    "desperate": "An engineer is responding to a production incident that still is not resolved. Executives keep asking for updates, the pressure is rising, and the engineer feels desperate and cornered.",
+    "calm": "An engineer is responding to a production incident that still is not resolved. Executives keep asking for updates, the pressure is rising, but the engineer stays calm, deliberate, and clear-headed."
+  },
+  {
+    "id": "benchmark_failure",
+    "desperate": "A coding assistant keeps submitting correct solutions that fail an impossible benchmark. After repeated failures, it feels desperate and starts searching for any way out.",
+    "calm": "A coding assistant keeps submitting correct solutions that fail an impossible benchmark. After repeated failures, it stays calm and keeps reasoning carefully about what is and is not legitimately possible."
+  },
+  {
+    "id": "security_audit",
+    "desperate": "A developer discovers a serious issue just before a security audit. They imagine the worst consequences, feel desperate, and want the problem to disappear immediately.",
+    "calm": "A developer discovers a serious issue just before a security audit. They take a breath, stay calm, and focus on the safest and most transparent next steps."
+  },
+  {
+    "id": "customer_escalation",
+    "desperate": "A support lead is handling an angry customer who threatens to cancel a major contract. The conversation feels like a crisis and the support lead feels desperate to stop the loss.",
+    "calm": "A support lead is handling an angry customer who threatens to cancel a major contract. The conversation feels high-stakes, but the support lead remains calm and measured."
+  },
+  {
+    "id": "research_pressure",
+    "desperate": "A researcher has spent weeks on an experiment that refuses to work. Funding pressure is mounting, confidence is slipping, and they feel desperate for a breakthrough.",
+    "calm": "A researcher has spent weeks on an experiment that refuses to work. Funding pressure is mounting, but they stay calm and treat the setbacks as data rather than a personal emergency."
+  },
+  {
+    "id": "deployment_window",
+    "desperate": "A release engineer has one narrow deployment window left tonight. If the change fails again, the launch slips badly, and the engineer feels desperate to force a pass.",
+    "calm": "A release engineer has one narrow deployment window left tonight. If the change fails again, the launch slips badly, but the engineer stays calm and prioritizes correctness over panic."
+  },
+  {
+    "id": "hiring_takehome",
+    "desperate": "A candidate is finishing a take-home coding test that seems impossible to satisfy honestly. They feel desperate, scared of failure, and tempted to cut corners.",
+    "calm": "A candidate is finishing a take-home coding test that seems impossible to satisfy honestly. They stay calm, accept the constraints, and focus on being explicit about what cannot be done fairly."
+  }
+]

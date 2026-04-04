@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+*.egg
+
+# Large binary files (model vectors)
+results/*.pt
+results/*.mp4
+results/*.wav
+results/*.mp3
+
+# Video outputs
+*.mp4
+*.wav
+*.mp3
+
+# Temp voiceover cache
+/tmp/vo_lines/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.toc
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+!paper/arxiv_paper.pdf
