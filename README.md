@@ -32,8 +32,8 @@ Internally, each condition leaves a distinct direction vector in the model's hid
 **Requirements:** Python 3.10+, [Ollama](https://ollama.com), HuggingFace token (Qwen3.5 is gated)
 
 ```bash
-git clone https://github.com/ranausmanai/under-pressure-llm-emotions
-cd under-pressure-llm-emotions
+git clone https://github.com/ranausmanai/LLMEmotionGeometry
+cd LLMEmotionGeometry
 pip install -e .
 export HF_TOKEN=hf_...
 ```
